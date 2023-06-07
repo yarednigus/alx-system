@@ -1,4 +1,2 @@
 #!/bin/bash
-current_working_directory=$(pwd)
-absolute_path=$(realpath $current_working_directory)
-echo "$absolute_path"
+echo $(pwd)
